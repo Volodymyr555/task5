@@ -710,6 +710,7 @@ overflow: hidden;
 .backdrop.is-hidden .modal{
   transform: scale(1.5);
   transition: transform 1000ms;
+  transform: rotate(180deg);
 }
 
  
@@ -722,9 +723,10 @@ overflow: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   transform: scale(1);
+  transform: translate(-50%, -50%);
   transition: transform 1000ms;
+  
 }
 
 .modal-button-close{
